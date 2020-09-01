@@ -27,8 +27,8 @@
 
 
 <br/><br/><center>&sect;</center><br/>
-<a name="_=>"></a><h3><font color=#CC0000>'=></font></h3>
-<b>syntax: (<font color=#CC0000>'=></font> pointer selector [arg1 arg2 ...])</b><br/>
+<a name="_=>"></a><h3><font color=#CC0000>=></font></h3>
+<b>syntax: (<font color=#CC0000>=></font> pointer selector [arg1 arg2 ...])</b><br/>
 <b>parameter: </b><em>ptr-selector</em> - [<em>arg1</em> <em>arg2</em> ..]<br/>
 <b>parameter: </b><em>str-selector</em> - [<em>arg1</em> <em>arg2</em> ..]<br/>
 <p><b>return: </b><em>pointer</em></p>
@@ -46,6 +46,7 @@
  utility string function 
 
 
+
 <br/><br/><center>&sect;</center><br/>
 <a name="_makepoint"></a><h3><font color=#CC0000>makepoint</font></h3>
 <b>syntax: (<font color=#CC0000>makepoint</font> int-w int-h)</b><br/>
@@ -54,7 +55,11 @@
 <p><b>return: </b>packed point structure</p>
  utility function to return a point structure
 
-<b>syntax: (<font color=#CC0000>makepoint</font> int-w int-h)</b><br/>
+
+
+<br/><br/><center>&sect;</center><br/>
+<a name="_makerect"></a><h3><font color=#CC0000>makerect</font></h3>
+<b>syntax: (<font color=#CC0000>makerect</font> int-x int-y int-w int-h)</b><br/>
 <b>parameter: </b><em>int-x</em> - left x coordinate<br/>
 <b>parameter: </b><em>int-y</em> - top y coordinate<br/>
 <b>parameter: </b><em>int-w</em> - width<br/>
@@ -62,10 +67,12 @@
 <p><b>return: </b>packed rect structure</p>
  utility function to return a rect structure
 
+
 <br/><br/><center>&sect;</center><br/>
 <a name="_test"></a><h3><font color=#CC0000>test</font></h3>
 <b>syntax: (<font color=#CC0000>test</font>)</b><br/>
-;; test function to display a window with a button
+ test function to display a window with a button
+
 <br/><br/><center>- &part; -</center><br/>
 <center><font face='Arial' size='-2' color='#444444'>
 generated with <a href="http://newlisp.org">newLISP</a>&nbsp;
