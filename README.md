@@ -1,2 +1,2 @@
-# objc
-minimalistic objc bindings
+# objc-cocoa
+minimalistic objc-cocoa bindings
