@@ -1,2 +1,5 @@
 # objc-cocoa
-minimalistic objc-cocoa bindings
+*v
+*Very* minimalistic objc-cocao bindings
+
+Documentation at 
